@@ -1,0 +1,13 @@
+
+# Print a message indicating the start of the script
+echo "Starting pre-commit hook..."
+
+npm run format
+
+npx eslint .
+
+#pending tests
+#npm run test
+
+# Print a message after tests are run
+echo "Finished pre-commit hook."

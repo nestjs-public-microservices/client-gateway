@@ -1,0 +1,9 @@
+#files to ignore when building a docker image
+
+dist/
+
+node_modukes/
+
+.env
+
+.vscode/
